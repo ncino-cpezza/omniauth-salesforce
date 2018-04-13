@@ -83,7 +83,7 @@ module OmniAuth
 
     end
 
-    class SalesforceSandbox < OmniAuth::Strategies::Salesforce
+    class Salesforcesandbox < OmniAuth::Strategies::Salesforce
       default_options[:client_options][:site] = 'https://test.salesforce.com'
     end
 
